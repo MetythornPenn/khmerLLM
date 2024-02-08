@@ -3,7 +3,7 @@ import timeit
 import yaml
 import argparse
 from dotenv import find_dotenv, load_dotenv
-from src.utils import setup_dbqa
+from api.src.llama2.utils import setup_dbqa
 
 # Load environment variables from .env file
 load_dotenv(find_dotenv())
